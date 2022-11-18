@@ -1,16 +1,26 @@
+:root {
+    --primera-cor: #3E78B2;
+    --segunda-cor: #004BA8;
+
+    --borda: #4A525A;
+
+    --fundo: #24272B;
+    --text: #07070A;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: rgb(62, 64, 66);
-    color: rgb(251, 251, 250);
+    background-color: var(--fundo);
+    color: var(--text);
     font-size: 30px;
 }
 
 h1 {
-    color: rgb(144, 26, 26);
+    color: var(--primera-cor);
 }
 
 .conteudo {
